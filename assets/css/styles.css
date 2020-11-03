@@ -109,6 +109,10 @@ body {
   font-size: 1.5rem;
 }
 
+.project-card-content > a {
+  font-size: 1.5rem;
+}
+
 .mt {
   margin-top: 2rem;
 }
@@ -167,12 +171,56 @@ body {
   visibility: visible;
 }
 
+.resume-banner {
+  padding: 10%;
+  height: auto;
+  width: 80%;
+}
+
+.resume-banner-content {
+  padding: 10%;
+}
+
+.resume-title {
+  font-size: 3rem;
+}
+
+.resume-subtitle {
+  font-size: 2rem;
+}
+
+.download-box {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: #536dfe;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 300ms;
+}
+
+.icon-img {
+  height: 1.2rem;
+  width: auto;
+  margin-left: 0.5rem;
+}
+
+.text-inline {
+  display: inline;
+  margin-left: 1rem;
+}
+
+.download-box:hover {
+  transform: scale(1.05);
+}
+
 @media screen and (max-width: 600px) {
   .col-2 {
-    width: 100%;
+    flex: 100%;
   }
 
   .col-3 {
-    width: 100%;
+    flex: 100%;
   }
 }
