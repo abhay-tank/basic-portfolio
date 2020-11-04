@@ -217,10 +217,10 @@ body {
 
 @media screen and (max-width: 600px) {
   .col-2 {
-    flex: 100%;
+    width: 100%;
   }
 
   .col-3 {
-    flex: 100%;
+    width: 100%;
   }
 }
