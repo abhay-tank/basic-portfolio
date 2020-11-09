@@ -123,7 +123,7 @@ hr {
 
 .project-card-content {
   height: 100%;
-  visibility: hidden;
+  /* visibility: hidden; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -147,7 +147,7 @@ hr {
   margin-top: 2rem;
 }
 
-#l-project {
+/* #l-project {
   background-image: url("../images/l.gif");
   background-position: center;
   background-size: cover;
@@ -172,21 +172,18 @@ hr {
   background-color: white;
   transform: scale(1.05);
   z-index: 99;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #w-project:hover {
   background-color: white;
   transform: scale(1.05);
   z-index: 99;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #m-project:hover {
   background-color: white;
   transform: scale(1.05);
   z-index: 99;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #l-project:hover > .project-card-content {
@@ -199,12 +196,12 @@ hr {
 
 #m-project:hover > .project-card-content {
   visibility: visible;
-}
+} */
 
 .resume-banner {
   padding: 10%;
   height: auto;
-  width: 80%;
+  width: 70%;
 }
 
 .resume-banner-content {
