@@ -9,25 +9,29 @@
   </head>
   <body>
     <div id="profile" class="container">
-      <div class="row">
-        <div class="col-2">
-          <img
-            class="avatar-img"
-            src="./assets/images/avatar2.png"
-            alt="avatar"
-          />
+      <div class="flex-box row center">
+        <div class="col-2 center">
+          <div class="banner-image-container flex-box center">
+            <img
+              class="avatar-img"
+              src="./assets/images/avatar2.png"
+              alt="avatar"
+            />
+          </div>
         </div>
-        <div class="col-2">
-          <h1 id="title">Abhay Tank</h1>
-          <hr />
-          <h3 id="subtitle">Developer, Student, Engineer & Minimalist</h3>
-          <a href="#projects" class="nav-link">Learn More 👇🏽</a>
+        <div class="col-2 center">
+          <div class="banner-content flex-box col col-left">
+            <h1 id="title">Abhay Tank</h1>
+            <hr />
+            <h3 id="subtitle">Developer, Student, Engineer & Minimalist</h3>
+            <a href="#projects" class="nav-link">Learn More 👇🏽</a>
+          </div>
         </div>
       </div>
     </div>
     <div id="projects" class="container">
-      <div class="row">
-        <div class="col-3">
+      <div class="project-cards flex-box row center">
+        <div class="col-3 flex-box center">
           <div class="project-card" id="l-project">
             <div class="project-card-content">
               <img
@@ -46,7 +50,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-3 flex-box center">
           <div class="project-card" id="w-project">
             <div class="project-card-content">
               <img
@@ -62,7 +66,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-3 flex-box center">
           <div class="project-card" id="m-project">
             <div class="project-card-content">
               <img
@@ -80,19 +84,19 @@
             </div>
           </div>
         </div>
+        <a href="#resume" class="nav-link mt">Resume 👇🏽</a>
       </div>
-      <a href="#resume" class="nav-link mt">Resume 👇🏽</a>
     </div>
     <div id="resume" class="container">
-      <div class="row">
-        <div class="col-2">
+      <div class="flex-box center row">
+        <div class="col-2 flex-box center">
           <img
             class="resume-banner"
             src="./assets/images/resume.svg"
             alt="resume-banner"
           />
         </div>
-        <div class="col-2">
+        <div class="col-2 flex-box center">
           <div class="resume-banner-content">
             <h1 class="resume-title">Resume</h1>
             <h2 class="resume-subtitle">Learn more about me</h2>
@@ -112,8 +116,8 @@
       <a href="#contact" class="nav-link">Contact 👇🏽</a>
     </div>
     <div id="contact" class="container">
-      <div class="row">
-        <div class="col-2">
+      <div class="flex-box row center">
+        <div class="col-2 flex-box center">
           <div class="resume-banner-content">
             <a href="https://www.abhaytank.com">
               <h1 class="resume-title">Abhay Tank</h1>
@@ -136,7 +140,7 @@
             ></iframe>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-2 flex-box center">
           <img
             class="resume-banner"
             src="./assets/images/contact.svg"
