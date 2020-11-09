@@ -21,6 +21,7 @@ main {
 
 /* Track */
 ::-webkit-scrollbar-track {
+  background: var(--primary-text-color);
   box-shadow: inset 0 0 5px var(--primary-text-color);
 }
 
