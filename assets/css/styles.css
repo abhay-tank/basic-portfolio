@@ -147,6 +147,21 @@ hr {
   margin-top: 2rem;
 }
 
+#l-project:hover {
+  transform: scale(1.05);
+  z-index: 99;
+}
+
+#w-project:hover {
+  transform: scale(1.05);
+  z-index: 99;
+}
+
+#m-project:hover {
+  transform: scale(1.05);
+  z-index: 99;
+}
+
 /* #l-project {
   background-image: url("../images/l.gif");
   background-position: center;
