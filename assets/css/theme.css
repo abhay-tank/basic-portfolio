@@ -1,0 +1,43 @@
+:root {
+  --first-color: #f2f4fb;
+  --second-color: #d22780;
+  --third-color: #f8b500;
+  --fourth-color: #5e227f;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --divider-color: #bdbdbd;
+  --icon-color: #000000;
+  --transition-speed: 300ms;
+}
+
+.first-color {
+  background: #f2f4fb;
+}
+
+.second-color {
+  background: #d22780;
+}
+
+.third-color {
+  background: #f8b500;
+}
+
+.fourth-color {
+  background: #5e227f;
+}
+
+.primary-text-color {
+  color: #212121;
+}
+
+.secondary-text-color {
+  color: #757575;
+}
+
+.divider-color {
+  color: #bdbdbd;
+}
+
+.icon-color {
+  color: #000000;
+}
