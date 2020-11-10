@@ -60,7 +60,7 @@ main {
   width: 6rem;
   height: 100vh;
   position: fixed;
-  background-color: var(--primary-text-color);
+  background-color: #161616;
 }
 
 .navbar-nav {
@@ -90,7 +90,7 @@ main {
 
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
-  background: var(--fourth-color);
+  background: white;
   color: var(--first-color);
 }
 
@@ -166,6 +166,7 @@ hr {
   min-height: 70vh;
   width: 80%;
   margin: 2rem 2rem;
+  border-radius: 1rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 200ms;
 }
@@ -199,16 +200,19 @@ hr {
 #l-project:hover {
   transform: scale(1.05);
   z-index: 99;
+  box-shadow: 0 4px 8px 0 #0a0b23, 0 6px 20px 0 #0a0b23;
 }
 
 #w-project:hover {
   transform: scale(1.05);
   z-index: 99;
+  box-shadow: 0 4px 8px 0 #0a0b23, 0 6px 20px 0 #0a0b23;
 }
 
 #m-project:hover {
   transform: scale(1.05);
   z-index: 99;
+  box-shadow: 0 4px 8px 0 #0a0b23, 0 6px 20px 0 #0a0b23;
 }
 
 /* #l-project {
