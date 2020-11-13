@@ -6,8 +6,8 @@ html,
 body {
   margin: 0;
   scroll-behavior: smooth;
-  font-size: 2vh;
   /* scroll-snap-type: y mandatory; */
+  font-size: 14px;
   font-family: "IBM Plex Sans", sans-serif;
 }
 
@@ -59,6 +59,7 @@ main {
 .navbar {
   width: 6rem;
   height: 100vh;
+  z-index: 99;
   position: fixed;
   background-color: var(--navbar-primary);
 }
@@ -199,21 +200,18 @@ hr {
 
 #l-project:hover {
   transform: scale(1.05);
-  z-index: 99;
   box-shadow: 0 4px 8px 0 var(--primary-box-shadow),
     0 6px 20px 0 var(--primary-box-shadow);
 }
 
 #w-project:hover {
   transform: scale(1.05);
-  z-index: 99;
   box-shadow: 0 4px 8px 0 var(--primary-box-shadow),
     0 6px 20px 0 var(--primary-box-shadow);
 }
 
 #m-project:hover {
   transform: scale(1.05);
-  z-index: 99;
   box-shadow: 0 4px 8px 0 var(--primary-box-shadow),
     0 6px 20px 0 var(--primary-box-shadow);
 }
@@ -363,6 +361,9 @@ hr {
 }
 
 @media screen and (max-width: 900px) {
+  body {
+    font-size: 10px;
+  }
   .banner-content {
     justify-content: center;
     align-items: center;
