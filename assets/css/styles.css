@@ -341,6 +341,27 @@ hr {
   height: auto;
 }
 
+.social-links {
+  align-self: center;
+  justify-self: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.social-link {
+  font-size: 2rem;
+  margin: 1rem 1rem;
+}
+
+.copyright {
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 900px) {
   .banner-content {
     justify-content: center;
@@ -374,7 +395,13 @@ hr {
     justify-content: center;
   }
 
+  .contact-banner img {
+    width: 50%;
+    height: auto;
+  }
+
   main {
     margin: 0;
+    margin-bottom: 5rem;
   }
 }
