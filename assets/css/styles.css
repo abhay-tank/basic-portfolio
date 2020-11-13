@@ -190,6 +190,10 @@ hr {
   font-size: 1.5rem;
 }
 
+.project-card-content img {
+  width: 40%;
+}
+
 .project-card-content > a {
   font-size: 1.5rem;
 }
@@ -360,7 +364,7 @@ hr {
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   body {
     font-size: 10px;
   }
