@@ -127,14 +127,14 @@ main {
 }
 
 .avatar-img {
-  width: 50vh;
+  width: 50%;
   height: auto;
   border-radius: 50%;
   background-image: url("../images/sparkles.gif");
   background-blend-mode: lighten;
   background-size: contain;
   background-position: center;
-  padding: 5vh;
+  padding: 5%;
 }
 
 hr {
@@ -404,5 +404,9 @@ hr {
   main {
     margin: 0;
     margin-bottom: 5rem;
+  }
+
+  .hide-sm {
+    display: none;
   }
 }
